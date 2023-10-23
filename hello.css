@@ -1,0 +1,71 @@
+﻿
+body {
+    background-color: white;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.items-grid {
+   background-color:white;
+}
+
+.cat-image {
+    height:100px;
+}
+.image-thumpnailll {
+
+  width:100%;
+}
+.cat-name {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.button:active {
+    opacity: 0.7;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 8px;
+    vertical-align: top;
+    box-shadow: 10px 20px 10px rgb(94, 12, 12);
+}
+
+.image-thumpnail {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+.paragraph-statement{
+    display:inline-block;
+    align-content:center;
+}
+.mutual-friend {
+}
+
+.add-friend-button {
+}

@@ -1,0 +1,32 @@
+﻿body {
+    background-color:lavenderblush;
+}
+.main-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    height:200px;
+    column-gap:20px;
+    row-gap:30px;
+}
+.items-grid {
+    background-color:black;
+}
+.cat-image {
+    background-color: bisque;
+    height: 100%;
+   
+}
+.cat-name {
+    color: forestgreen;
+    font-weight:bold;
+    font-size:30px;
+}
+.image-thumpnail{
+    height:40px;
+    width:40px;
+}
+.mutual-friend {
+}
+.add-friend-button{
+
+}
